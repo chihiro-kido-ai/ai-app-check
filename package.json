@@ -13,6 +13,10 @@
     "preview": "vite preview",
     "lint": "tsc --noEmit"
   },
+  "overrides": {
+    "glob": "^11.0.0",
+    "node-domexception": "stop-using-this-package"
+  },
   "dependencies": {
     "@google/genai": "^1.34.0",
     "diff": "^7.0.0",
