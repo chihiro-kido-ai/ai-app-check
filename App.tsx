@@ -1,10 +1,8 @@
 
-import React, { useState, useEffect, useRef } from 'react';
-import Header from './components/Header';
-import ResultDisplay from './components/ResultDisplay';
-import { analyzeText, transformToVerticalNumbers, convertToVisibleVerticalNumbers, decodeVerticalNumbers } from './services/geminiService';
-import { ProofreadingResult, AnalysisStatus } from './types';
-import { Search, Check, AlertCircle, Upload, Trash2, Copy, FileText } from 'lucide-react';
+import Header from './src/components/Header'
+import Footer from './src/components/Footer'
+import MainContent from './src/components/MainContent'
+import './App.css'
 
 // AIが文章をチェックする時の「手順（ステップ）」のリストだよ。
 // 画面に「今これをやっているよ！」と表示するために使うんだ。
