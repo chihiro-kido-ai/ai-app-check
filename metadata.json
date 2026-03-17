@@ -1,0 +1,5 @@
+{
+  "name": "AI校閲さん(26/3/16~)",
+  "description": "A professional-grade Japanese text proofreading tool that detects typos, grammatical errors (te-ni-o-ha), and unnatural phrasing using Gemini AI.",
+  "requestFramePermissions": []
+}
